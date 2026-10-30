@@ -1,0 +1,63 @@
+/* dashboard/assets/styles.css */
+
+.container { padding: 16px; font-family: Arial, sans-serif; }
+.topbar { display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px; }
+.brand { font-size: 20px; font-weight: 700; }
+.menu { display:flex; gap: 12px; }
+.menu-link { text-decoration:none; }
+.toolbar { margin-bottom: 12px; display:flex; align-items:center; gap:12px; }
+.hint { margin-left: 10px; color: #666; font-size: 12px; }
+
+.page { margin-top: 8px; }
+.cards { display:flex; gap: 12px; flex-wrap: wrap; margin: 10px 0 14px; }
+.card { border:1px solid #ddd; border-radius: 10px; padding: 12px 14px; min-width: 200px; }
+.grid2 { display:grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.filters { margin: 10px 0 10px; }
+
+/* 전체 앱 2열 레이아웃 */
+.app-shell {
+  display: flex;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* 사이드바 */
+.sidebar {
+  width: 220px;
+  border-right: 1px solid #eee;
+  padding: 16px 12px;
+  background: #fafafa;
+}
+
+.sidebar-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  padding: 10px 12px;
+  border-radius: 10px;
+  color: #222;
+}
+
+.sidebar-link:hover {
+  background: #f0f0f0;
+}
+
+/* 메인 컨텐츠 */
+.main {
+  flex: 1;
+  padding: 16px;
+}
+
+.page-wrap {
+  margin-top: 10px;
+}

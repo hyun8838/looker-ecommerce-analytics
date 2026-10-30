@@ -1,0 +1,131 @@
+.page-shell {
+    padding: 8px 4px 24px 4px;
+}
+
+.page-shell-header {
+    margin-bottom: 20px;
+}
+
+.page-shell-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 6px;
+}
+
+.page-shell-description {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 0;
+}
+
+.kpi-row {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.kpi-card {
+    padding: 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.kpi-card-title {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 6px;
+}
+
+.kpi-card-value {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.chart-block {
+    margin-bottom: 24px;
+}
+
+.chart-grid {
+    display: grid;
+    gap: 16px;
+}
+
+.chart-grid-1 {
+    grid-template-columns: 1fr;
+}
+
+.chart-grid-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.chart-grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.chart-card {
+    background: #ffffff;
+    padding: 8px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 4px;
+}
+
+.insight-box {
+    margin-top: 24px;
+    padding: 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background: #fafafa;
+}
+
+.insight-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.insight-list {
+    margin: 0;
+    padding-left: 18px;
+    color: #374151;
+}
+
+.page-tabs {
+    margin-bottom: 20px;
+}
+
+.page-tab-desc {
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.caveat-note {
+    margin: 4px 0 16px;
+    padding: 10px 14px;
+    border-left: 3px solid #F5A25D;
+    background: #fff8ef;
+    border-radius: 6px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #7c4a12;
+}
+
+@media (max-width: 1100px) {
+    .kpi-row,
+    .chart-grid-2,
+    .chart-grid-3 {
+        grid-template-columns: 1fr;
+    }
+}

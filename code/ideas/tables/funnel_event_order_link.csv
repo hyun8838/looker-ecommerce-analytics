@@ -1,0 +1,2 @@
+event_columns,order_id_columns
+e_id u_id session_id sequence_number e_created_at browser e_traffic_source uri event_type age gender country u_latitude u_longitude u_traffic_source u_created_at,none

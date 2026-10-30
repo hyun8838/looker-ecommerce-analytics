@@ -1,0 +1,44 @@
+# Local data and accounts
+*.parquet
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*credentials*.json
+*service-account*.json
+*service_account*.json
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local system and runtime files
+.DS_Store
+*.log
+
+# Local editor and review files
+.idea/
+.vscode/
+*.bak
+*.before_*
+*.tmp
+*.pem
+*.key
+
+# Internal working files
+.claude/
+.Codex/
+.codex/
+AGENTS.md
+CLAUDE.md
